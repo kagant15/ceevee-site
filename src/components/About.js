@@ -1,7 +1,7 @@
 import React from "react";
-import { FaCloudDownload } from "react-icons/lib/fa";
+import { FaCloudDownload } from "react-icons/fa";
 
-import profilePic from "../assets/images/profilepic.jpg";
+import profilePic from "../assets/images/profile-picture.jpg";
 
 const About = () => (
   <section id="about">
@@ -12,40 +12,31 @@ const About = () => (
       <div className="nine columns main-col">
         <h2>About Me</h2>
         <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-          qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
-          dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
-          quia non numquam eius modi tempora incidunt ut labore et dolore magnam
-          aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
-          exercitationem ullam corporis suscipit laboriosam.
+          I've been working as a goverment contractor in the Defense Sector of the Washington D.C. area for the past five years designing and implementing software  
+          for both inhouse company solutions as well as end user facing applications. I take pride in the work that I do and take emense pleasure in being able to translates a business's needs 
+            into tangalbe solutions.  If my work sounds appealing to you feel free to contact me so we can chat about your business needs.
         </p>
         <div className="row">
           <div className="columns contact-details">
             <h2>Contact Details</h2>
             <p className="address">
-              <span>Jonathan Doe</span>
-              <br />
+              <span>Thomas Kagan</span>
               <span>
-                1600 Amphitheatre Parkway
-                <br /> Mountain View, CA 94043 US
+                <br /> Fairfax, VA 22032 US
               </span>
               <br />
-              <span>(123)456-7890</span>
+              <span>(815) 608-2518</span>
               <br />
-              <span>anyone@website.com</span>
+              <span>thomas.kagan15@gmail.com</span>
             </p>
           </div>
-          <div className="columns download">
+          {/*<div className="columns download">
             <p>
               <a href="#" className="button">
                 <FaCloudDownload /> Download Resume
               </a>
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

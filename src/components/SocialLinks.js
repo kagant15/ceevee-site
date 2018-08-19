@@ -5,31 +5,31 @@ import {
   FaGooglePlus,
   FaInstagram,
   FaTwitter
-} from "react-icons/lib/fa";
+} from "react-icons/fa";
 // https://gorangajic.github.io/react-icons/fa.html
 
 const SocialLinks = () => (
   <ul className="social">
-    <li>
+{/*    <li>
       <a href="#">
         <FaFacebook />
       </a>
-    </li>
-    <li>
+    </li> */}
+{/*     <li>
       <a href="#">
         <FaTwitter />
       </a>
-    </li>
-    <li>
+    </li> */}
+{/*    <li>
       <a href="#">
         <FaGooglePlus />
       </a>
-    </li>
-    <li>
+    </li> */}
+{/*    <li>
       <a href="#">
         <FaInstagram />
       </a>
-    </li>
+    </li> */}
     <li>
       <a href="#">
         <FaGithub />

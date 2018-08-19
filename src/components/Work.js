@@ -9,47 +9,85 @@ const Work = () => (
     </div>
 
     <div className="nine columns main-col">
+      
+
       <div className="row item">
         <div className="twelve columns">
-          <h3>Awesome Design Studio</h3>
+          <h3>Strategic Business Systems (SBS)</h3>
           <p className="info">
-            Senior UX Designer
-            <span>&bull;</span>
-            <em className="date">March 2010 - Present</em>
+            Senior Software Enginner
+           {/*} <span>&bull;</span>
+            <em className="date">July 2016 - Present</em> */}
           </p>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-            aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede
-            mollis pretium.
+            
           </p>
         </div>
       </div>
 
       <div className="row item">
         <div className="twelve columns">
-          <h3>Super Cool Studio</h3>
+          <h3>Sotera Defense Solutions</h3>
           <p className="info">
-            UX Designer
-            <span>&bull;</span>
-            <em className="date">March 2007 - February 2010</em>
+            Software Engineer
+           {/*} <span>&bull;</span>
+            <em className="date">January 2013 - Jan 2014 & April 2015 - July 2016</em> */}
           </p>
 
           <p>
-            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-            velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
-            auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
-            Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-            Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
-            ornare odio. Sed non mauris vitae erat
+            <ul>
+              <li>
+                Designed and developed multiple web based visualization tools for viewing the results of big data analytics. Used React, Ember, D3, and native Javascript.
+              </li>
+              <li>
+                Supported Data Scientists in scaling their data analytic algorithms across the cloud.
+              </li>
+              <li>
+                Wrote both Scala and Javascript code for multiple projects.
+              </li>
+              <li>
+                Investigated new and increasingly better ways of developing single page web apps with D3+React.
+              </li>
+            </ul>
+          </p>
+
+        </div>
+      </div>
+
+
+      <div className="row item">
+        <div className="twelve columns">
+          <h3>AgileX Technologies</h3>
+          <p className="info">
+            Software Engineer
+           {/*} <span>&bull;</span>
+            <em className="date">From - To</em> */}
+          </p>
+            <ul>
+              <li>
+                Created a single page web application used by over 1000+ call center agents for the United States Postal Service.
+              </li>
+              <li>
+                Developed and designed a cross-browser responsive hybrid desktop/mobile SPA using Twitter Bootstrap, Angular, jQuery, and HTML5.
+              </li>
+              <li>
+                Worked directly alongside the customer to interpret their requirements into functional tasks that could be completed with high quality and within an acceptable timeline.
+              </li>
+              <li>
+                Regularly demo’d my work to clients to show promised deliverables, and insure customer satisfaction.
+              </li>
+            </ul>
+          <p>
+
           </p>
         </div>
       </div>
+
+
     </div>
+
+
   </div>
 );
 
